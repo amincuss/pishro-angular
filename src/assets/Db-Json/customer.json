@@ -1,0 +1,49 @@
+{
+  "Customer": [
+    {
+      "id": 1,
+      "Firstname": "aminss",
+      "Lastname": "Finlands",
+      "PhoneNumber": "+12012987481",
+      "DateOfBirth": "Helsinkiss23",
+      "BankAccountNumber": "1111111111",
+      "Email": "a@yssahoo.com"
+    },
+    {
+      "id": 2,
+      "Firstname": "sd",
+      "Lastname": "kikki",
+      "PhoneNumber": "+12012987481",
+      "DateOfBirth": "asasas",
+      "BankAccountNumber": "1111111111",
+      "Email": "as@yahoo.com"
+    },
+    {
+      "id": 0.7250309540973168,
+      "Firstname": "cvcv",
+      "Lastname": "cvcvcv",
+      "PhoneNumber": "+12012987481",
+      "DateOfBirth": "vc6",
+      "BankAccountNumber": "1111111111",
+      "Email": "as@yahoo.com"
+    },
+    {
+      "Firstname": "amin",
+      "Lastname": "cvcvcv3",
+      "PhoneNumber": "+12012987481",
+      "DateOfBirth": "vc6",
+      "BankAccountNumber": "1111111111",
+      "Email": "s@yahoso.com",
+      "id": 0.0691420457112022
+    },
+    {
+      "Firstname": "sdd",
+      "Lastname": "cvcvcv3",
+      "PhoneNumber": "+12012987481",
+      "DateOfBirth": "vc6",
+      "BankAccountNumber": "1111111111",
+      "Email": "s@yahoso.com",
+      "id": 0.03393033597172601
+    }
+  ]
+}

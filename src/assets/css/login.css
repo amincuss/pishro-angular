@@ -1,0 +1,61 @@
+@font-face {
+  font-family: yekan;
+  src: url('../../assets/fonts/Yekan.eot?#') format('eot'), url('../../assets/fonts/Yekan.woff') format('woff'), url('../../assets/fonts/Yekan.ttf') format('truetype');
+}
+
+
+body, html {
+  height: auto;
+  margin: 0;
+  background-image: linear-gradient(rgb(104, 145, 162), rgb(104, 145, 162));
+  font-family: yekan,Tahoma;
+}
+.wrapper {    
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.form-signin {
+  max-width: 350px;
+  padding: 30px 38px 30px;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 1px solid rgba(0,0,0,0.1);  
+  border-radius: 5px;
+  }
+
+.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-radius: 5px;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+border-radius: 5px;
+}
+
+.colorgraph {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0;}
+  
+input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button {  -webkit-appearance: none; margin: 0;  } input[type=number] { -moz-appearance: textfield;}

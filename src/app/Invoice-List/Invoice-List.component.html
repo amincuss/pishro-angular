@@ -1,0 +1,40 @@
+<p-toast></p-toast>
+
+<p-toolbar styleClass="p-mb-4">
+  <ng-template pTemplate="left">
+    <button pButton pRipple label="New Invoice " icon="pi pi-plus" class="p-button-success p-mr-2"
+            (click)="openCreateModal()"></button>
+  </ng-template>
+</p-toolbar>
+
+<!--Table-->
+<p-table [value]="mydata" [(selection)]="selectedInvoice" selectionMode="single" (onRowSelect)="onRowSelect($event)">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>شماره فاکتور</th>
+      <th>نام محصول</th>
+      <th>تعداد محصول</th>
+      <th>قیمت محصول</th>
+
+      <th>کد ثبت محصول</th>
+
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-mydata>
+    <tr [pSelectableRow]="mydata">
+       <td>{{ mydata.invoiceId}}</td>  
+       <td>{{mydata.productName}}</td>
+       <td>{{mydata.productNumber}}</td>
+      <td>{{mydata.productCost}}</td>
+
+      <td>{{mydata.invoiceRegisterId}}</td>
+
+      <td>
+        <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success p-mr-2"
+                (click)="openEditModal(mydata)"></button>
+        <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-danger"
+                (click)="deleteinvoice(mydata)"></button>
+      </td>
+    </tr>
+  </ng-template>
+</p-table>

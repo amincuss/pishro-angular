@@ -1,0 +1,58 @@
+<form [formGroup]="userListForm" (ngSubmit)="onSubmit()">
+
+  <div class="p-grid">
+    <div class="p-col p-field p-grid p-m-4 p-p-4">
+     
+      <div class="p-col">
+
+      </div>
+    </div>
+
+    <div class="p-col p-field p-grid p-m-4 p-p-4">
+      <label for="Firstname" class="p-col-fixed" style="width:100px">Firtsname</label>
+      <div class="p-col">
+        <input id="name"  type="text" formControlName="name" pInputText required autofocus><br>
+       
+
+      </div>      
+
+    </div>
+
+    <div class="p-col p-field p-grid p-m-4 p-p-4">
+      <label for="Lastname" class="p-col-fixed" style="width:100px">Lastname</label>
+      <div class="p-col">
+        <input id="family"  type="text" formControlName="family" pInputText required autofocus><br>
+
+      </div>
+    </div>
+    <div class="p-col p-field p-grid p-m-4 p-p-4">
+      <label for="PhoneNumber" class="p-col-fixed" style="width:100px">mobile</label>
+      <div class="p-col">
+        <input id="PhoneNumber"  type="text" formControlName="mobile" pInputText required autofocus>
+        <br>
+
+      </div>
+    </div>
+    <div class="p-col p-field p-grid p-m-4 p-p-4">
+      <label for="DateOfBirth" class="p-col-fixed" style="width:100px">codemeli</label>
+      <div class="p-col">
+        <input  id="DateOfBirth" type="text" formControlName="codeMelli" pInputText required autofocus><br>
+
+      </div>
+    </div>
+    <div class="p-col p-field p-grid p-m-4 p-p-4">
+      <label for="Email" class="p-col-fixed" style="width:100px">address</label>
+      <div class="p-col">
+        <input id="Email" formControlName="address" type="text" pInputText required autofocus><br>
+
+      </div>
+    </div>
+   
+    
+  </div>
+
+  <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+  <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text" type="submit"
+          ></button>
+
+</form>

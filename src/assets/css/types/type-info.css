@@ -1,0 +1,13 @@
+.notifier__notification--info {
+  width:600px;
+  background-color:aliceblue;
+  align-content:center;
+  color:black;
+ 
+}
+
+.notifier__notification--info .notifier__notification-button-icon {
+  fill:black;
+}
+
+/*# sourceMappingURL=type-info.css.map */
